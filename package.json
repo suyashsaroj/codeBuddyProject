@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "set PORT=3001 jest",
+    "test": "PORT 3001 jest",
     "seed": "node seeder.js",
     "dev": "nodemon index.js"
   },
